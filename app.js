@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 import productsRouter from './routers/productsRouter.js';
+import 'dotenv/config';
 import sequelize from './db/sequelize.js';
 
 const app = express();
